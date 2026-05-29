@@ -1,0 +1,58 @@
+{
+	"common": {
+		"note": "Nota",
+		"file": "Arxiu",
+		"advanced": "Avançat",
+		"create": "Crear",
+		"loading": "Carregant",
+		"mode": "Mòde",
+		"views": "{n, plural, =0 {Visualitzacions} =1 {1 visualització} other {# Visualitzacions}}",
+		"minutes": "{n, plural, =0 {Minuts} =1 {1 minut} other {# Minuts}}",
+		"max": "Màxim",
+		"share_link": "Compartir enllaç",
+		"copy_clipboard": "Copiar al porta-retalls",
+		"copied_to_clipboard": "Copiat al porta-retalls",
+		"encrypting": "Encriptant",
+		"decrypting": "Desxifrant",
+		"uploading": "Carregant",
+		"downloading": "Descarregant",
+		"qr_code": "Còdi qr",
+		"password": "Contrasenya"
+	},
+	"home": {
+		"intro": "Envia fàcilment notes o arxius <i>totalment encriptats</i> i segurs amb un sol clic. Sols has de crear una nota i compartir l'enllaç.",
+		"explanation": "La nota es destruirà després de {type}.",
+		"new_note": "Nota nova",
+		"new_note_notice": "<b>Disponibilitat:</b><br />No es garanteix que la nota s'emmagatzemi, ja que tot es guarda a la memòria RAM, si s'omple s'eliminaran les notes més antigues.",
+		"errors": {
+			"note_to_big": "No s'ha pogut crear la nota. La nota és massa gran",
+			"note_error": "No s'ha pogut crear la nota. Si us plau, intenta-ho de nou.",
+			"max": "Màxim: {n}",
+			"empty_content": "La nota està buida."
+		},
+		"messages": {
+			"note_created": "Nota creada."
+		},
+		"advanced": {
+			"explanation": "Per defecte, s'utilitza una contrasenya generada de forma segura per cada nota. No obstant això, també pot escollir la seva pròpia contrasenya, la qual no s'inclou en l'enllaç.",
+			"custom_password": "Contrasenya personalitzada"
+		}
+	},
+	"show": {
+		"errors": {
+			"not_found": "La nota no s'ha trobat o ja ha sigut eliminada.",
+			"decryption_failed": "Contrasenya incorrecta. No s'ha pogut desxifrar. Probablement l'enllaç no és correcte. La nota ha sigut destruïda.",
+			"unsupported_type": "Tipus de nota no compatible."
+		},
+		"explanation": "Premi sota per a mostrar i esborrar la nota si el comptador ha arribat al seu límit",
+		"show_note": "Mostrar nota",
+		"warning_will_not_see_again": "<b>No</b> tindràs l'oportunitat de tornar a veure la nota.",
+		"download_all": "Descarregar-ho tot",
+		"links_found": "Enllaços que es troben dins la nota:"
+	},
+	"file_upload": {
+		"selected_files": "Arxius seleccionats",
+		"no_files_selected": "No hi ha arxius seleccionats",
+		"clear": "Restablir"
+	}
+}

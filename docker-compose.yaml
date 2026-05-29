@@ -11,12 +11,17 @@ services:
       - /data
 
   app:
-    image: cupcakearmy/cryptgeon:latest
+    image: cryptgeon_v4.1:latest 
     depends_on:
       - redis
     environment:
       # Size limit for a single note.
-      SIZE_LIMIT: 4 MiB
+      SIZE_LIMIT: 128 MiB
+      # THEME_FAVICON: "https://www.qgis.es/author/ajuntament-de-terrassa/avatar_hu6a816eefb4b0e91a86e7eaf4f446ea8b_12776_270x270_fill_lanczos_center_2.png"
+      THEME_PAGE_TITLE: "Notes privades"
+      # THEME_IMAGE: "https://www.coe.int/documents/21864805/60242440/Ajuntament_Terrassa_Logo.png/b74ae64f-3f8c-7533-ded1-47e39d92e1f0?t=1583171580000"
+      # Añadimos la variable para que la app sepa dónde encontrar a Redis dentro de la red de Docker
+      REDIS: redis://redis:6379
     ports:
       - 80:8000
 

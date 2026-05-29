@@ -4,6 +4,7 @@
 !/package.json
 !/pnpm-lock.yaml
 !/pnpm-workspace.yaml
+!/fortinet.crt
 
 **/target
 **/node_modules
